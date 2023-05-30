@@ -5,7 +5,10 @@
 Users want to record their bookings against some specific inventory - be it stocks in a warehouse or seats in a classroom training. The super straightforward solution in Power Automate would probably respond to new bookings being created, and would do so by updating the available count in one table, and the booking's confirmed status in another. But in a mass concurrent world of Power Automate, it is not easy to ensure that nobody else will be making their changes at the same time. Such collission would quickly lead to data corruption, and two users thinking they succeeded in booking one resource.
 
 ## Demo
-5 records are submitted all **at once**:
+In a warehouse called Amsterdam, we have 12 items available, and 5 were booked earlier:
+![Screen of Amsterdam warehouse, booked orders = 5, available count = 12](image4.png)
+
+Now, we start making booking requests. Here, 5 records are submitted all **at once**:
 ![List of bookings - all successful](image1.png)
 
 and here, 5 more but this time only 2 items left in warehouse:
