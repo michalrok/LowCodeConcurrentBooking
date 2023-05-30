@@ -1,6 +1,6 @@
 #PowerAutomate #PowerAutomateCloud #Dataverse
 
-# I guess you all know this kind of requests...
+# Reliable Concurrent Booking with Power Automate
 
 Users want to record their bookings against some specific inventory - be it stocks in a warehouse or seats in a classroom training. The super straightforward solution in Power Automate would probably respond to new bookings being created, and would do so by updating the available count in one table, and the booking's confirmed status in another. But in a mass concurrent world of Power Automate, it is not easy to ensure that nobody else will be making their changes at the same time. Such collission would quickly lead to data corruption, and two users thinking they succeeded in booking one resource.
 
