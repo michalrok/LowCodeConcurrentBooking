@@ -6,7 +6,7 @@ Users want to record their bookings against some specific inventory - be it stoc
 
 ## Demo
 In a warehouse called Amsterdam, we have 12 items available, and 5 were booked earlier: 
-![Screen of Amsterdam warehouse, booked orders = 5, available count = 12](image4.png)
+![Screen of Amsterdam warehouse, booked orders = 5, available count = 12](image3.png)
 
 Now, we start making booking requests. Here, 5 records are submitted all **at once**:
 ![List of bookings - all successful](image1.png)
